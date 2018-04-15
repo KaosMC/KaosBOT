@@ -88,4 +88,4 @@ bot.on("guildMemberRemove", (member) => {
   member.guild.channels.get("434722319320088584").send(embed);
 });
 
-bot.login(botconfig.token);
+bot.login(procces.env.BOT_TOKEN;
